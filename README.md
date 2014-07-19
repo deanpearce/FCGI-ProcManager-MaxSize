@@ -6,7 +6,7 @@ allows the size of the child processes to be restricted to a
 reasonable size for the system. It will allow child processes
 to exit cleanly after it finishes serving a request.
 
-INSTALLATION
+*INSTALLATION*
 
 To install this module, run the following commands:
 
@@ -15,14 +15,14 @@ To install this module, run the following commands:
 	make test
 	make install
 
-SUPPORT AND DOCUMENTATION
+*SUPPORT AND DOCUMENTATION*
 
 After installing, you can find documentation for this module with the
 perldoc command.
 
     perldoc FCGI::ProcManager::MaxSize
 
-COPYRIGHT AND LICENCE
+*COPYRIGHT AND LICENCE*
 
 Copyright (C) 2014 Dean Pearce
 
