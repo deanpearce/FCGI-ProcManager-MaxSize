@@ -94,6 +94,12 @@ Allows you to set or get the maximum process size, in MB.
 At the end of a request, check the current memory size of the child process. If it
 exceeds the size defined in max_size, exit gracefully.
 
+=head1 METHODS
+
+=head2 memory_usage
+
+Find the memory usage for the current child process. 
+
 =head1 USING WITH CATALYST
 
 At this time, L<Catalyst::Engine::FastCGI> do not allow set any args to L<FCGI::ProcManager> constructor.
