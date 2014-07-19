@@ -68,7 +68,7 @@ Usage same as FCGI::ProcManager:
 
 FCGI-ProcManager-MaxSize is a extension of FCGI-ProcManager that allows
 the size of child processes to be restricted. This is an alternate to
-L<FCGI::ProcManager::MaxRequests> that allows you to define your operating
+L<FCGI::ProcManager::MaxSize> that allows you to define your operating
 parameters based on memory.
 
 This module subclass L<FCGI::ProcManager>. Once the defined value for 
